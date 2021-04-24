@@ -1,0 +1,59 @@
+body {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 4%;
+    width: 60vw;
+  }
+  
+  .button-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+  }
+  
+  a {
+    align-content: center;
+    padding: 2%;
+    color: white;
+    text-decoration: none;
+    font-family: Big Caslon;
+  }
+  
+  a:hover {
+    color: black;
+  }
+  
+  a, section {
+    border-radius: 5px;
+    border: 1px solid white;
+  }
+  
+  #new-quote {
+    font-size: 14px;
+  }
+  
+  #text {
+    font-size: 25px;
+    font-family: Segoe Print;
+  }
+  
+  p {
+    text-align: justify;
+    width: 80%;
+  }
+  
+  #author {
+    text-align: right;
+    width: 80%;
+  }
